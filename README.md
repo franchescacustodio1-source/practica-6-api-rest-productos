@@ -1,22 +1,48 @@
+
 # Práctica 6 - API REST de productos
 
-## Cómo ejecutar
+API REST desarrollada con Node.js y Express para administrar productos.
+
+## Tecnologías utilizadas
+
+- Node.js
+- Express
+- JavaScript
+- Postman
+
+## Cómo ejecutar el proyecto
+
+Instalar las dependencias:
 
 ```bash
 npm install
+```
+
+Iniciar el servidor:
+
+```bash
 npm start
 ```
 
-El servidor corre en http://localhost:3000
+El servidor estará disponible en:
 
-## Endpoints
+http://localhost:3000
 
-| Método | Ruta              | Estado        |
-|--------|-------------------|---------------|
-| GET    | /productos        | Implementado  |
-| GET    | /productos/:id    | Implementado  |
-| POST   | /productos        | **Por completar** |
-| PUT    | /productos/:id    | **Por completar** |
-| DELETE | /productos/:id    | **Por completar** |
+## Endpoints implementados
 
-Lee el documento de la práctica para ver los requisitos de cada método.
+| Método | Ruta | Estado |
+|---|---|---|
+| GET | /productos | Implementado |
+| GET | /productos/:id | Implementado |
+| POST | /productos | Implementado |
+| PUT | /productos/:id | Implementado |
+| DELETE | /productos/:id | Implementado |
+
+## Pruebas
+
+Se realizaron pruebas utilizando Postman para verificar la creación, consulta, actualización y eliminación de productos, incluyendo respuestas de error 400 y 404.
+
+## Autora
+
+Franchesca Lebrón Custodio
+
